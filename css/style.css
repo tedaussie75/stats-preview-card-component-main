@@ -133,6 +133,12 @@ li {
     filter: brightness(0.7);
 }
 
+@media screen and (min-width: 1300px) {
+    .stats-content ul {
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .card-stats {
         max-width: 1000px;
